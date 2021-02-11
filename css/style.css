@@ -1,0 +1,112 @@
+body {
+  margin: 0 auto;
+  width: 80vw;
+  background-color: #2b2e4a;
+  color: #e84545;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+main {
+  margin-left: 4vw;
+  width: 100%;
+  display: flex;
+}
+
+header {
+  margin-left: 4vw;
+  margin-top: 1vw;
+
+  background-color: #53354a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 5vw;
+
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5vw;
+}
+
+section {
+  padding: 1vw;
+}
+
+article {
+  margin-top: 3vw;
+}
+
+.col-1 {
+  text-align: right;
+}
+
+.col-1 img {
+  width: 25vw;
+}
+
+.col-1 ul {
+  direction: rtl;
+}
+
+.col-2 {
+  margin-left: 3vw;
+}
+
+.col-2 h2 {
+  margin-bottom: 0;
+  font-size: 2vw;
+  line-height: 2vw;
+}
+
+.col-2 h3 {
+  margin-top: 0.1vw;
+  font-size: 1.3vw;
+  font-weight: normal;
+}
+
+.col-2 a {
+  color: inherit;
+  font-weight: normal;
+  font-size: 1.3vw;
+}
+
+.col-2 span {
+  font-weight: normal;
+  font-size: 1.3vw;
+  font-style: italic;
+}
+
+.info a {
+  color: inherit;
+}
+
+.main-info {
+  margin-bottom: 4vw;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 1.5vw;
+  margin-top: 0.2vw;
+  margin-bottom: 0;
+}
+
+li,
+pre,
+p,
+code,
+ul {
+  font-size: 1vw;
+  margin: 0;
+  font-weight: normal;
+  color: #903749;
+}
+
+li,
+ul {
+  padding: 0;
+}
+
+ul {
+  list-style-position: inside;
+}

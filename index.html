@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="cv for rsschool" />
+    <meta name="author" content="Vlad Solovey" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>CV | Solovey Vlad</title>
+  </head>
+  <body>
+    <header>
+      <h1>CV for RSschool</h1>
+    </header>
+    <main>
+      <section class="col-1">
+        <img src="images/my-photo.png" alt="my photo" />
+        <article class="info">
+          <h4>Contacts:</h4>
+          <ul>
+            <li>
+              <a href="mailto:sverxkabzdec2019@gmail.com">
+                sverxkabzdec2019@gmail.com
+              </a>
+            </li>
+            <li>+375 (29) 35-777-98</li>
+          </ul>
+        </article>
+        <article class="info">
+          <h4>Skills:</h4>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>GIT(basics)</li>
+            <li>JS(studying)</li>
+            <li>Python</li>
+            <li>C++(basic)</li>
+          </ul>
+        </article>
+      </section>
+      <section class="col-2">
+        <article class="main-info">
+          <h2>Vlad Solovey</h2>
+          <h3>Web developer</h3>
+          <a href="https://github.com/vakxaminas">@vakxaminas</a><br />
+          <span>Mar'ina Horka, Belarus</span>
+        </article>
+        <article class="info">
+          <h4>About me:</h4>
+          <p>
+            Now I am a student at BSU. I want to take the courses of the PC
+            school in order to raise my skills to a whole new level and get a
+            job as a Junior developer. I learn pretty quickly when I’m doing an
+            interesting job.
+          </p>
+        </article>
+        <article class="info">
+          <h4>Education:</h4>
+          <ul>
+            <li>BSU(studying)</li>
+          </ul>
+        </article>
+        <article class="info">
+          <h4>English:</h4>
+          <ul>
+            <li>A2+ (Streamline)</li>
+          </ul>
+        </article>
+        <article class="info">
+          <h4>Code Snippet:</h4>
+          <pre><code>
+class CarBase:
+	def __init__(self, brand, photo_file_name, carrying, car_type):
+		self.brand = brand
+		self.photo_file_name = photo_file_name
+		self.carrying = float(carrying)
+		self.car_type = car_type
+			
+	def get_photo_file_ext(self):
+		file_ext = os.path.splitext(self.photo_file_name)[1]
+		return file_ext
+</code></pre>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
